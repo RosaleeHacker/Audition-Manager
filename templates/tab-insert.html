@@ -1,0 +1,37 @@
+<ion-view view-title="New">
+<ion-content>
+<div class="list">
+   <div>
+    <form class="item item-inset" id="audition-form" name="jokedata" ng-controller="DBCtrl">
+      <div class="item item-inset">
+        <input  type="text" placeholder="Auditionee #"  ng-model="inputID" clear-field>
+      </div>
+      <div class="item item-inset">
+        <input type="text" placeholder="Name" ng-model="inputName">
+      </div>
+      <div class="item item-inset">
+        <input type="number" placeholder="Age" ng-model="inputAge">
+      </div>
+      <div class="item item-inset">
+        <input type="text" placeholder="Gender" ng-model="inputGender">
+      </div>
+      <div class="item item-inset">
+        <input type="text" placeholder="Vocals" ng-model="inputVocals">
+      </div>
+      <div class="item item-inset">
+        <input type="text" placeholder="Role" ng-model="inputRole">
+      </div>
+      <div class="item item-inset">
+        <textarea rows="4" cols="55" placeholder="Notes" ng-model="inputNotes"></textarea>
+      </div>
+      <div class="item item-inset">
+        <input type="number" placeholder="Score" ng-model="inputScore">
+      </div>
+
+        <button class="button button-block button-calm" ng-click="insert()">Save</button>
+        <button class="button button-block button-calm" ng-click="resetForm()">Clear</button>
+    </form>
+  </div>
+</div>
+</ion-content>
+</ion-view>

@@ -1,0 +1,26 @@
+.title-dash {
+	text-align: center;
+}
+
+.desc-dash {
+	font-size: 16px;
+}
+
+ion-content {
+	background-color: #4d84e3;
+}
+
+img {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item {
+	color:#000;
+	font-size: 30px;
+}
+
+.button-info-delete {
+	background-color: red;
+}
